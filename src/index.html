@@ -4,12 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homework 10</title>
+    <title>Audio project</title>
+    <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
-    <input type="text" id="search-box" />
-    <ul class="list"></ul>
-    <div class="info"></div>
+    <div class="container">
+      <div class="player">
+        <h2 class="now-playing">Now Playing</h2>
+        <img class="headphone" src="./images/headphone.svg" alt="headphobe">
+        <div class="bar"></div>
+      </div>
+      
+      <div class="play-control">
+        <img class="prev" src="./images/prev.svg" alt="prev" width="20" height="44">
+        <img class="play" src="./images/play.svg" alt="play" width="50" height="50">
+        <img class="next" src="./images/next.svg" alt="next" width="20" height="44">
+      </div>
+    </div>
 
     <script src="index.js" type="module"></script>
   </body>
